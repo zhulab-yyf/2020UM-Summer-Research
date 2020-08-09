@@ -1,0 +1,5 @@
+#!/bin/bash
+for a in *test.txt; do
+	 echo $a
+    #mv $a `printf %04d.%s ${a%.*} ${a##*.}`
+done
